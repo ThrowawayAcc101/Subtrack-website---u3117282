@@ -1,10 +1,10 @@
 <?php
 
 //SQL database login/connection details 
-$servername = 'localhost';
-$dbName = 'userbase_system';
-$dbUsername = 'root';
-$dbPassword = 'root';
+$servername = 'c171.lithium.hosting';
+$dbName = 'bvogbwbv_userbase_system';
+$dbUsername = 'bvogbwbv';
+$dbPassword = '9pk-l28g';
 
 // SQL database login pass and attribute setting
 $connection = new PDO("mysql:host=$servername;dbname=$dbName", $dbUsername, $dbPassword);

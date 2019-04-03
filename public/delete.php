@@ -60,7 +60,6 @@ if (isset($_GET["id"])) {
     <title>Delete</title>
 </head>
 
-
 <!-- Navigation-->
 <?php include "templates/header.php"; ?>
 
