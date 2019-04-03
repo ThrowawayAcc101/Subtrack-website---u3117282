@@ -1,0 +1,87 @@
+html, body {
+	min-height: 100%;
+}
+
+body {
+	background: #F8F9FA;
+}
+
+#entry {
+	margin-block-start: 0;
+    margin-block-end: 0;
+	margin-bottom: 0;
+}
+
+.container {
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 100px; 
+}
+
+/* Logged in' status text */
+#navbarNavAltMarkup > p {
+	margin-bottom: 0;
+	padding: 0 8px; /* re-adjust Bootstrap margins and padding */
+}
+
+/* Main body */
+.main_body {
+	padding-top: 50px;
+}
+
+.main_body li {
+	font-size: 20px;
+}
+
+.inner_container {
+	padding: 20px 0;
+}
+
+.inner_container p {
+	font-size: 20px;
+}
+
+/* First header text */
+.heading_area {
+	padding-bottom: 20px;
+}
+
+/* Alert message */
+.alert.alert-warning p, .alert.alert-success p {
+	margin-bottom: 0;
+	font-size: 20px;	
+}
+
+#button_area {
+	right: 0;
+	position: absolute;
+	padding: 0 16px;
+}
+
+/* Card entry */
+.card {
+	padding: 10px;
+	margin: 10px 0;
+}
+
+/* Footer */
+footer {
+	height:100px;
+	width:100%;
+	background:#343A40;
+	position: fixed;
+	bottom: 0;
+}
+
+#footer_container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+
+footer p, a {
+	color: rgba(255,255,255,.5);
+}
