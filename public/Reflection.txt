@@ -1,0 +1,16 @@
+﻿Reflection
+
+
+The overall development process has proven to be a challenge personally. I would describe the development process exhausting with tackling the various problems discovered while designing/coding the tracker website. One of the most common occurence I encountered while running into programming errors and trying to figure out what why that code wouldn't run is simply because either a missing parentheses that needed to be added or general missing closing tags that I forgot to input in statements. This frustrated me personally as It would cause me to doubt if the function was coded correctly or the right function to use. 
+
+
+In terms of programs related issues, I encountered problems with the MAMP software which the MySQL server would not startup again after returning on the server. I did managed to find a fix to this problem with a deep google search into the problem which relates to the Windows 10 OS and having to backup and delete mysql-bins related files.
+
+
+One of the first problem scenario I ran into during development process was coding and designing the general form input, login and signup error messages such as if the user left any fields empty, or if there’s already a username that exist when signing up. My general logic statement for whenever a user encounters an error would return the user back to the page (via header function) and simply echo out a simple message. The problem with the logic I found out was that you can’t output anything else during the redirect process. A solution I found to this problem is that you can declare a variable session and code a statement to see if the variable session is declared/active (via isset), to which you can then echo out a message successfully and unset the session variable.     
+
+
+A strange issue that I ran into during the development process was in relation to executing SQL statements with an array parameter. For some odd unknown reason, executing mySQL statements with an array parameters would cause output an SQL error in which either the parameter was not defined or the number of bound variables did not match the number of tokens. I’m don’t know entirely what was causing it and why it was occurring even though mySQL statements and array variables personally seemed correct. The solution I had to resort to was to declare each form input POST variable separately and bind each SQL variables separately. 
+
+
+Designing the website using the Bootstrap framework provided useful button form and card templates for my website design. One minor hidderence to the Bootstrap framework was that many of the HTML components had unique margin and padding style properties set, which often conflicted how the the elements would normally act. A workaround to this hindrance was that I had to ‘reset’ each of the desired HTMl components styles values for them to act relatively normal by default.
