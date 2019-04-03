@@ -58,6 +58,10 @@ if (isset($_POST['signup-button'])) {
 
 <!-- Main HTML front-end code section -->
 
+<head>
+    <title>Signup</title>
+</head>
+
 <!-- Navigation -->
 <?php include "templates/header.php"; ?>
 

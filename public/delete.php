@@ -56,6 +56,12 @@ if (isset($_GET["id"])) {
 
 <!-- Main HTML front-end section -->
 
+<head>
+    <title>Delete</title>
+</head>
+
+
+<!-- Navigation-->
 <?php include "templates/header.php"; ?>
 
 <div class="container">
@@ -87,4 +93,5 @@ if (isset($_GET["id"])) {
 	</div>
 </div>
 
+<!-- Delete-->
 <?php include "templates/footer.php"; ?>

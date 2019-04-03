@@ -55,6 +55,10 @@ if (isset($_POST['submit_button'])) {
 
 <!-- Main HTML front-end code section -->
 
+<head>
+    <title>Create</title>
+</head>
+
 <!-- Navigation -->
 <?php include "templates/header.php"; ?>
 

@@ -80,6 +80,10 @@ catch(PDOExcpetion $error) {
 ?>
 <!-- Main HTML front-end section -->
 
+<head>
+    <title>Updaing Entry #<?php echo $_GET['id']; ?></title>
+</head>
+
 <!-- Navigation -->
 <?php include "templates/header.php"; ?>
 

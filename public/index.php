@@ -10,7 +10,7 @@ require 'login_script.php';
 <!-- Main HTML front-end code section -->
 
 <head>
-    <title>James's Collection</title>
+    <title>Home</title>
 </head>
 
 <!-- Navigation -->

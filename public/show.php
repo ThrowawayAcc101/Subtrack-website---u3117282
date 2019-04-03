@@ -28,6 +28,10 @@ try {
 
 <!-- Main HTML front-end code section -->
 
+<head>
+    <title>Entries</title>
+</head>
+
 <!-- Navigation -->
 <?php include "templates/header.php"; ?>
 
